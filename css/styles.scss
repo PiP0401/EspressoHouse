@@ -121,7 +121,6 @@ img {
 	height: auto;
 }
 
-
 .bgnews{
 	background-image: url("../images/baggrund.png");
 	background-position: center;
@@ -131,7 +130,6 @@ img {
 
 .nyheder{
 	display: flex;
-	max-width: 250px;
 }
 
 .Passionate{
@@ -141,4 +139,8 @@ img {
 
 .cardny{
 	color: white;
+}
+
+.nytitel{
+	max-width: 350px;
 }
