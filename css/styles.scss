@@ -63,19 +63,23 @@ img {
 }
 
 .news:hover{
-	box-shadow: 5px 6px 6px 2px #e9ecef;
+	box-shadow: 5px 6px 6px 2px;
 	transform: scale(1.1)
 }
 
 .newsletter .content {
-	max-width: 350px;
+	max-width: 450px;
 	margin: 0 auto;
 	text-align: center;
 	position: relative;
-	z-index: 2; }
+	z-index: 2;
+}
+
 .newsletter .content h2 {
 	color: #243c4f;
-	margin-bottom: 40px; }
+	margin-bottom: 40px;
+}
+
 .newsletter .content .form-control {
 	height: 50px;
 	border-color: #ffffff;
@@ -91,4 +95,16 @@ img {
 	background: #4e7b64;
 	color: #fff;
 	font-weight:600;
+}
+
+.bgnews{
+	background-image: url("../images/baggrund.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nyheder{
+	display: flex;
+	max-width: 250px;
 }
