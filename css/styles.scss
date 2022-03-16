@@ -57,3 +57,38 @@ img {
 
 }
 
+.news{
+	transition: all 0.2s ease;
+	cursor: pointer
+}
+
+.news:hover{
+	box-shadow: 5px 6px 6px 2px #e9ecef;
+	transform: scale(1.1)
+}
+
+.newsletter .content {
+	max-width: 350px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 2; }
+.newsletter .content h2 {
+	color: #243c4f;
+	margin-bottom: 40px; }
+.newsletter .content .form-control {
+	height: 50px;
+	border-color: #ffffff;
+	border-radius:0;
+}
+.newsletter .content.form-control:focus {
+	box-shadow: none;
+	border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+	min-height: 50px;
+	border-radius:0;
+	background: #4e7b64;
+	color: #fff;
+	font-weight:600;
+}
