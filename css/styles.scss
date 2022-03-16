@@ -31,12 +31,17 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+.hero{
+	padding: 0px;
+}
 
 .navbar {
+	padding: 0px;
 }
 
 .navbar .container-fluid {
 	background-color: rgba(255, 255, 255, 60%);
+	min-height: 100px;
 
 }
 
@@ -48,7 +53,9 @@ img {
 
 .navbar-brand{
 	position: absolute;
-	margin-top: 8%;
+	left: 0;
+	margin-top: 5%;
+	max-height: 80%;
 }
 
 .news-img{
