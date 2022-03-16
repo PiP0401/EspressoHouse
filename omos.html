@@ -4,131 +4,139 @@
     <meta charset="UTF-8">
     <title>Om os</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/omos.scss" rel="stylesheet" type="text/css">
+    <link href="css/omos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg d-flex navbar-light">
-    <div class="container-fluid">
-        <a class="navbar-brand col-4-lg justify-content-around ms-4" href="#"><IMG src="images/LogoIcon.png"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon order-last"></span>
-        </button>
-        <div class="collapse navbar-collapse col-lg-8 justify-content-end m-4" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PÅ MENUEN</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">BÆREDYGTIGHED</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">OM OS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">KONTAKT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">GAVEKORT</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        <IMG src="images/LanguageIcon.png">
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Dansk</a></li>
-                        <li><a class="dropdown-item" href="#">Svensk</a></li>
-                        <li><a class="dropdown-item" href="#">Norsk</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div class="container-fluid">
+<div class="hero container-fluid position-relative">
     <div class="row"><IMG src="images/OmOsBaggrund.png"></div>
-</div>
+
+    <div class="position-absolute w-100" style="left: 0; top: 0;">
+        <nav class="navbar navbar-expand-lg d-flex navbar-light">
+            <div class="container-fluid text-end justify-content-end">
+
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon order-last"></span>
+                </button>
+                <a class="navbar-brand col-4-lg justify-content-around ms-4" href="#"><IMG
+                        src="images/LogoIcon.png"></a>
+                <div class="collapse navbar-collapse col-lg-8 justify-content-end m-4" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">PÅ MENUEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BÆREDYGTIGHED</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OM OS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">KONTAKT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GAVEKORT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                <IMG src="images/LanguageIcon.png">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Dansk</a></li>
+                                <li><a class="dropdown-item" href="#">Svensk</a></li>
+                                <li><a class="dropdown-item" href="#">Norsk</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
 
 
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb ms-3">
-        <li class="breadcrumb-item"><a href="#">Espresso House</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Om os</li>
-    </ol>
-</nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb ms-3 p-3">
+            <li class="breadcrumb-item"><a href="#">Espresso House</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Om os</li>
+        </ol>
+    </nav>
 
-<!-- artikler -->
-<div class="card mb-3 border-0" style="max-width: 750px;">
-    <div class="row g-0">
-        <div class="col-md-4">
-            <img src="images/KaffeBønner.png" class="img-fluid rounded-start" alt="kaffebonner">
+    <!-- artikler -->
+    <div class="container-fluid">
+        <div class="card mb-3 border-0 m-0" style="max-width: 750px;">
+            <div class="row g-0 m-0  justify-content-center">
+                <div class="col-md-4">
+                    <img src="images/KaffeBønner.png" class="img-fluid rounded-start" alt="kaffebonner">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder">AMBITIONEN</h5>
+                        <p class="card-text fw-bolder">Espresso House er en svensk kaffekæde</p>
+                        <p class="card-text">som er ejet af JAB Holding Company. Vi brænder for kaffe, mennesker og
+                            miljø.</p>
+                        <p class="card-text fst-italic">– LÆS Hele artiklen her</p>
+                        <p class="card-text"><small class="text-muted">04/01/2019</small></p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title fw-bolder">AMBITIONEN</h5>
-                <p class="card-text fw-bolder">Espresso House er en svensk kaffekæde</p>
-                <p class="card-text">som er ejet af JAB Holding Company. Vi brænder for kaffe, mennesker og miljø.</p>
-                <p class="card-text fst-italic">–  LÆS Hele artiklen her</p>
-                <p class="card-text"><small class="text-muted">04/01/2019</small></p>
+
+        <div class="card mb-3 border-0" style="max-width: 750px;">
+            <div class="row g-0 justify-content-end">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder">PERSONALE</h5>
+                        <p class="card-text">Når det gælder vores personale</p>
+                        <p class="card-text">koncentrerer vi os først og fremmest om kompetenceudvikling. Alle der
+                            arbejder hos Espresso House skal igennem en uddannelse for at blive barista.</p>
+                        <p class="card-text fst-italic">– LÆS Hele artiklen her</p>
+                        <p class="card-text"><small class="text-muted">18/08/20</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/KaffeKopper.png" class="img-fluid rounded-start" alt="kaffekop">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 750px;">
+            <div class="row g-0 justify-content-lg-end">
+                <div class="col-md-4">
+                    <img src="images/LogoIcon.png" class="img-fluid rounded-start" alt="ikon">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder">ESPRESSO HOUSE</h5>
+                        <p class="card-text">Hos Espresso House kan vi godt lide at have styr på tingene</p>
+                        <p class="card-text">Vi ønsker, at alle som besøger os, genkender os som Espresso House</p>
+                        <p class="card-text fst-italic">– LÆS Hele artiklen her</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="card mb-3 border-0" style="max-width: 750px;">
-    <div class="row g-0 justify-content-end">
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title fw-bolder">PERSONALE</h5>
-                <p class="card-text">Når det gælder vores personale</p>
-                <p class="card-text">koncentrerer vi os først og fremmest om kompetenceudvikling.  Alle der arbejder hos Espresso House skal igennem en uddannelse for at blive barista.</p>
-                <p class="card-text fst-italic">–  LÆS Hele artiklen her</p>
-                <p class="card-text"><small class="text-muted">18/08/20</small></p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="images/KaffeKopper.png" class="img-fluid rounded-start" alt="kaffekop">
-        </div>
-
+    <!-- images -->
+    <div class="container-fluid p-0">
+        <div class="row"><IMG src="images/OmOsBaggrundGrøn.png"></div>
     </div>
-</div>
 
-<div class="card mb-3 border-0" style="max-width: 750px;">
-    <div class="row g-0 justify-content-lg-end">
-        <div class="col-md-4">
-            <img src="images/LogoIcon.png" class="img-fluid rounded-start" alt="ikon">
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title fw-bolder">ESPRESSO HOUSE</h5>
-                <p class="card-text">Hos Espresso House kan vi godt lide at have styr på tingene</p>
-                <p class="card-text">Vi ønsker, at alle som besøger os, genkender os som Espresso House</p>
-                <p class="card-text fst-italic">–  LÆS Hele artiklen her</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+    <br><br><br>
+
+    <!-- ikoner -->
+
+    <div class="icons container  justify-content-center">
+        <div class="row align-items-center">
+            <div class="col-4"><IMG src="images/TomorrowFriendlyIcon.png"></div>
+            <div class="col-4"><IMG src="images/TooGoodToGoIcon.png"></div>
+            <div class="col-4"><IMG src="images/SingleOriginIcon.png"></div>
         </div>
     </div>
-</div>
-
-<!-- images -->
-<div class="container-fluid">
-    <div class="row"><IMG src="images/OmOsBaggrundGrøn.png"></div>
-</div>
-
-<br><br><br>
-
-<!-- ikoner -->
-
-<div class="icons container  justify-content-center">
-    <div class="row align-items-center">
-        <div class="col-4"><IMG src="images/TomorrowFriendlyIcon.png"></div>
-        <div class="col-4"><IMG src="images/TooGoodToGoIcon.png"></div>
-        <div class="col-4"><IMG src="images/SingleOriginIcon.png"></div>
-    </div>
-</div>
 
 </body>
 </html>
