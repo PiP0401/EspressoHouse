@@ -123,6 +123,15 @@ img {
 	margin-top: 30%;
 }
 
+@media screen and (max-width: 980px){
+	.Appleicon{
+		margin-top: 20%;
+	}
+	.GoogleIcon{
+		margin-top: 20%;
+	}
+}
+
 .bgnews{
 	background-image: url("../images/baggrund.png");
 	background-position: center;
