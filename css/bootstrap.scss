@@ -17,7 +17,7 @@ $utilities-text-colors: map-loop($utilities-colors, rgba-css-var, "$key", "text"
 $utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
 
 $carousel-control-color:             $black;
-$carousel-control-width:             15%;
+$carousel-control-width:             auto;
 $carousel-control-opacity:           .5;
 $carousel-control-hover-opacity:     .9;
 $carousel-control-transition:        opacity .15s ease;
